@@ -1,0 +1,212 @@
+html {
+    margin: auto;
+    padding: 10px;
+    
+}
+
+#nightDayHandler {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    opacity:0.8;
+    cursor: pointer;
+
+}
+
+body {
+    font-family: Arial, Verdana, Tahoma;
+    font-weight: bold;
+ 
+}
+
+main h1{
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+#myIdContainer {
+    margin-top: 4%;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr) ) ;
+    grid-gap: 12.5px;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+#myIdContainer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  
+}
+
+@media (max-width: 576px) {
+    #myIdContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .myClassContainer {
+        width: 100%;
+        min-height: 400px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}    
+
+/* fizzbuzz class */
+
+.fizzbuzz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1em;
+    border-radius:4px;
+    border:3px solid blue;
+    background: skyblue;
+}
+
+.fizzbuzz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* fizz class */
+
+.fizz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1em;
+    border-radius: 4px;
+    border:3px solid red;
+    background: pink;
+}
+
+.fizz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* buzz class */
+
+.buzz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1em;
+    border-radius:4px;
+    border:3px solid darkorchid;
+    background: #b8a9c9;
+}
+
+.buzz:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* forTheRest class */
+
+.forTheRest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    font-size: 1em;
+    border-radius:4px;
+    border:3px dotted black;
+    background: lightgray;
+}
+
+.forTheRest:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* Navigation */
+
+.myClassContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: darkkhaki;
+    font-size: 1.3em;
+    border:3px solid green;
+    border-radius: 5px;
+
+}
+  
+input {
+    font-size: 0.9em;
+    width: 45px;
+    line-height: 45px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    border-radius: 0px;
+    width: 125px;
+    text-align: center;
+}
+
+    
+#buttonA {
+    background-color: white; 
+    color: black; 
+    border: 2.5px solid black;
+    cursor:pointer;
+
+}
+    
+#buttonB {
+    background-color: white; 
+    color: black; 
+    border: 2.5px solid black;
+    cursor:pointer;
+}
+    
+#buttonC {
+    background-color: white; 
+    color: black; 
+    border: 5px solid red;
+    cursor:pointer;
+
+}
+    
+#buttonD {
+    background-color: white;
+    color: black;
+    border: 5px solid darkorchid;
+    cursor:pointer;
+
+}
+    
+#buttonE {
+    background-color: white;
+    color: black;
+    border: 5px solid blue;
+    cursor:pointer;
+
+}
+
+.hidden {
+    display: none;
+
+}
